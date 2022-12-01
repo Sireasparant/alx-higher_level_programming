@@ -5,9 +5,9 @@ for multiples of five, print Buzz instead of number
 for multiples of three and five, print FizzBuzz instead of number"""
 
 def fizzbuzz():
-    for number in range(1, 10):
+    for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
-            print("FizzBuzz ", end=" ")
+            print("FizzBuzz ", end="")
         elif number % 3 == 0:
             print("Fizz ", end="")
         elif number % 5 == 0:
